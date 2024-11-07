@@ -1,1 +1,0 @@
-cmd_/usr/src/rts5227-1.07/rts5227.mod := printf '%s\n'   rtsx.o rtsx_chip.o rtsx_transport.o rtsx_scsi.o rtsx_card.o general.o sd.o ms.o | awk '!x[$$0]++ { print("/usr/src/rts5227-1.07/"$$0) }' > /usr/src/rts5227-1.07/rts5227.mod
